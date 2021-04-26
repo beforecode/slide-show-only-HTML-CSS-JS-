@@ -1,0 +1,177 @@
+.container {
+	background-image:linear-gradient(to right,#6d1496, #9c1499);
+	position:relative;
+	height:100vh;
+}
+/*------------SVG PART--------------------------*/
+.custom-shape-divider-bottom-1619259883 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1619259883 svg {
+    position: relative;
+    display: block;
+    width: calc(119% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-bottom-1619259883 .shape-fill {
+    fill: #FFFFFF;
+}
+/*---------------- general cards of slider -------------------------*/
+.wave {
+	position:relative;
+	height:100vh;
+}
+.custom-shape-divider-bottom-1619431856 {
+	margin:0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1619431856 svg {
+    position: relative;
+    display: block;
+    width: calc(187% + 1.3px);
+    height: 343px;
+}
+
+.custom-shape-divider-bottom-1619431856 .shape-fill {
+    fill: #2565D3;
+}
+/*-------------------------- wave-------------------------------- */
+.cards_container {
+	position:absolute;
+	height:400px;
+	display:flex;
+	z-index: 10;
+	top:50%;
+	transform: translateY(-50%);
+	}
+.cards {
+	width:900px;
+	height:400px;
+	margin:auto;
+	overflow-x:hidden;
+	overflow-y: hidden;
+	}
+.slider {
+	display:flex;
+	height:400px;
+	}
+	.card {
+	/*position:relative;*/
+	flex-shrink: 0;
+	height:400px;
+	width:900px;
+	}
+	/*------------------ slid buttons ---------------*/
+.button_wrapper {
+	position:relative;
+	flex-grow: 1;
+	height:400px;
+	width:200px;
+	}
+.next_button , .perv_button {
+	cursor: pointer;
+	z-index: 99;
+	border:none;
+	background: none;
+	border-radius:50%;
+}
+.next_button {
+	position:absolute;
+	top:50%;
+	left:0px;
+	transform:translateY(-50%);
+}
+.next_button:active img {
+	margin-left:20px;
+	transition:{ margin .5s ease;}
+}
+.perv_button {
+	position:absolute;
+	top:200px;
+	right:0px;
+	transform:translateY(-50%);
+}
+.perv_button:active img {
+	margin-right:20px;
+	transition:{ margin .5s ease;}
+}
+.perv_button img {transform:rotate(180deg);}
+button img {width:100px;}
+
+		/*--------------real small cards---------------- */
+.carde {
+	position:relative;
+	opacity:0.1;
+	width:300px;
+	height:400px;
+	background-color:#f5f5f5;
+	color:white;
+	margin:0 auto;
+	transition:margin .3s cubic-bezier(.47,1.64,.41,.8) ,opacity .3s ease;
+}
+.carde_thumb {
+	position:relative;
+	height:40%;
+	letter-spacing: 3px;
+	}
+	#c1 .carde_thumb,.html {background-image:linear-gradient(to top right, #ff6400,#e38800); color:#0b16e3;}
+	#c2 .carde_thumb,.css {background-image:linear-gradient(to top right, #15298c,#091657); color:;}
+	#c3 .carde_thumb,.js {background-color:#d1c52a; color:#7e42ed;}
+.carde_thumb p {
+	position: absolute;
+	top:50%;
+	left:50%;
+	font-size:20px;
+	transform:translateX(-50%) translateY(-100%);
+	}
+.carde_thumb div {
+	position:absolute;
+	bottom:-30px;
+	left:20px;
+	border:3px solid #ededed;
+	padding:15px;
+	border-radius:50%;
+}	
+.carde_thumb img {
+	height:30px;
+}		
+.carde_desc {
+padding:40px 10px 20px 40px;
+color:black;
+border-bottom:1px solid #ededed;
+}
+.carde_button {
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
+.carde_button a {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding: 0 10px;	
+}
+.carde_button a img {
+	height:70px;
+}
+.s1 {
+	
+	color:grey;
+}
+.s2 {
+	color:black;
+	font-size:22px;
+}
